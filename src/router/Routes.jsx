@@ -5,6 +5,7 @@ import AppDetails from "../pages/AppDetails";
 import AllApps from "../pages/AllApps";
 import Installation from "../pages/Installation";
 import InstalledAppsPage from "../pages/InstalledAppsPage";
+import ErrorLayout from "../components/ErrorLayout";
 import Error from "../pages/Error"; 
 import ErrorPage2 from "../pages/ErrorPage2"; 
 
@@ -12,8 +13,8 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <Error />,
-    children: [
+    errorElement: <ErrorLayout errorComponent={<Error />} />,
+    children:  [
       {
         index: true, 
         element: <Home />,

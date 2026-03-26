@@ -1,3 +1,4 @@
+// Installation.jsx
 import React, { useState, useEffect } from "react";
 import InstalledApps from "../pages/InstalledAppsPage";
 import { getFromLocalStorage, removeFromLocalStorage } from "../utility/localStorage";
@@ -10,23 +11,27 @@ export default function Installation() {
   const [installedApps, setInstalledApps] = useState([]);
   const [sortType, setSortType] = useState("");
 
+  // Load installed apps from localStorage
   useEffect(() => {
     const installedIds = getFromLocalStorage();
     const filteredApps = appsData.filter((app) => installedIds.includes(app.id));
     setInstalledApps(filteredApps);
   }, [appsData]);
 
+  // Uninstall app handler
   const handleUninstallBtn = (id) => {
     removeFromLocalStorage(id);
     setInstalledApps(installedApps.filter((app) => app.id !== id));
-    toast.success("App uninstalled successfully");
   };
 
+  // Sort apps by download count
   const handleSortBtn = (type) => {
     const sorted = [...installedApps];
-    if (type === "highToLow") sorted.sort((a, b) => b.size - a.size);
-    if (type === "lowToHigh") sorted.sort((a, b) => a.size - b.size);
-    setSortType(type === "highToLow" ? "Size: Large to Small" : "Size: Small to Large");
+
+    if (type === "highToLow") sorted.sort((a, b) => b.downloads - a.downloads);
+    if (type === "lowToHigh") sorted.sort((a, b) => a.downloads - b.downloads);
+
+    setSortType(type === "highToLow" ? "Downloads: High to Low" : "Downloads: Low to High");
     setInstalledApps(sorted);
   };
 
@@ -38,7 +43,7 @@ export default function Installation() {
       </div>
 
       <div className="max-w-5xl mx-auto px-4">
-        {/* Sort + App Count */}
+        {/* Sort Dropdown + App Count */}
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold text-slate-800">
             ({installedApps.length}) Apps Found
@@ -50,7 +55,7 @@ export default function Installation() {
               role="button"
               className="btn btn-md bg-white border-slate-200 text-black font-medium normal-case gap-3 px-4 py-2"
             >
-              {sortType || "Sort By Size"}
+              {sortType || "Sort By Downloads"}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -66,18 +71,25 @@ export default function Installation() {
                 <path d="m6 9 6 6 6-6"></path>
               </svg>
             </div>
+
             <ul
               tabIndex={0}
               className="dropdown-content z-[1] menu p-3 shadow bg-white rounded-box w-52"
             >
               <li>
-                <button className="w-full px-4 py-2 bg-white text-black hover:bg-gray-100 hover:text-black" onClick={() => handleSortBtn("highToLow")}>
-                  Size (Large to Small)
+                <button
+                  className="w-full px-4 py-2 bg-white text-black hover:bg-gray-100 hover:text-black"
+                  onClick={() => handleSortBtn("highToLow")}
+                >
+                  High-Low
                 </button>
               </li>
               <li>
-                <button className="w-full px-4 py-2 bg-white text-black hover:bg-gray-100 hover:text-black" onClick={() => handleSortBtn("lowToHigh")}>
-                  Size (Small to Large)
+                <button
+                  className="w-full px-4 py-2 bg-white text-black hover:bg-gray-100 hover:text-black"
+                  onClick={() => handleSortBtn("lowToHigh")}
+                >
+                  Low-High
                 </button>
               </li>
             </ul>

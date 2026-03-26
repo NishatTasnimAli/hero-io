@@ -43,11 +43,11 @@ const AllApps = () => {
             <input
               type="search"
               placeholder="Search Apps"
-              className="w-full pl-10 pr-4 py-4 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#632EE3] focus:border-transparent text-sm md:text-base"
+              className="w-full pl-10 pr-4 text-[#632EE3] py-4 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#632EE3] focus:border-transparent text-sm md:text-base"
               onChange={handleOnChange}
             />
             <svg
-              className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 opacity-50 text-gray-500"
+              className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 opacity-50 text-black"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ const AllApps = () => {
         ) : searchApp.length === 0 ? (
           <ErrorPage2 />
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 text-black">
             {searchApp.map((app) => (
               <App key={app.id} app={app} />
             ))}

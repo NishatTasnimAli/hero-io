@@ -35,13 +35,25 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-bold mb-4">Social Links</h3>
           <div className="flex gap-4 mt-4">
-            <RiLinkedinFill className="text-white text-2xl"/>
-            <RiFacebookFill className="text-white text-2xl"/>
+            <a
+              href="https://linkedin.com/company/your-company" // replace with your LinkedIn
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RiLinkedinFill className="text-white text-2xl"/>
+            </a>
+            <a
+              href="https://facebook.com/your-page" // replace with your Facebook
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RiFacebookFill className="text-white text-2xl"/>
+            </a>
           </div>
         </div>
       </div>
-      <hr className="border-gray-600 mt-8" />
-      <p className="text-gray-400 text-center mt-4">© 2026 HERO.IO - All rights reserved.</p>
+      <hr className="border-gray-600 mt-8 " />
+      <p className="text-gray-400 text-center mt-4 pb-2">© 2026 HERO.IO - All rights reserved.</p>
     </div>
   );
 }

@@ -267,7 +267,7 @@
     "id": 13,
     "title": "Duolingo",
     "companyName": "Duolingo Inc.",
-    "image": "../assets/duolingo.png",
+    "image": "https://img.icons8.com/fluency/48/duolingo-logo.png",
     "description": [
       "Duolingo makes learning a new language fun and engaging with gamified lessons.",
       "Practice reading, writing, listening, and speaking skills daily in bite-sized sessions.",
@@ -333,7 +333,7 @@
     "id": 16,
     "title": "Evernote",
     "companyName": "Evernote Corporation",
-    "image": "https://img.icons8.com/color/96/evernote.png",
+    "image": "https://img.icons8.com/fluency/48/evernote.png",
     "description": [
       "Evernote helps you capture ideas, organize notes, and manage tasks all in one app.",
       "Create notebooks, attach images, PDFs, and web clippings, and sync across all your devices.",
@@ -443,7 +443,7 @@
     "id": 21,
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
-    "image": "../assets/Uber.png",
+    "image": "https://img.icons8.com/ios/50/uber.png",
     "description": [
       "Uber is a ride-hailing app that connects passengers with drivers quickly and safely.",
       "Request rides, track your driver in real-time, and pay seamlessly through the app.",

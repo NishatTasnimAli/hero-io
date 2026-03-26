@@ -7,7 +7,7 @@ export default function ErrorPage3() {
   return (
     <div className="text-center py-20 text-gray-500">
       <img src={errorImage} alt="App Error" className="mx-auto mb-4" />
-      <h2 className="text-2xl font-bold mb-4">OPPS!! APP NOT FOUND</h2>
+      <h2 className="text-4xl text-black font-bold mb-4">OPPS!! APP NOT FOUND</h2>
       <p>The App you are requesting is not found on our system. Please try installing it from Apps page!</p>
       
       <div className="flex justify-center">

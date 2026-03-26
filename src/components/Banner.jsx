@@ -24,13 +24,23 @@ export default function Banner() {
         </p>
 
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
-          <a className="flex items-center gap-2 border border-gray-200 px-5 py-2.5 rounded-md bg-white shadow-sm hover:shadow-md transition">
-            <img src={playStore} alt="" className="w-5 h-5" />
+          <a
+            href="https://play.google.com/store/apps" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 border border-gray-200 px-5 py-2.5 rounded-md bg-white shadow-sm hover:shadow-md transition"
+          >
+            <img src={playStore} alt="Google Play" className="w-5 h-5" />
             <span className="text-sm font-medium text-gray-700">Google Play</span>
           </a>
 
-          <a className="flex items-center gap-2 border border-gray-200 px-5 py-2.5 rounded-md bg-white shadow-sm hover:shadow-md transition">
-            <img src={appStore} alt="" className="w-5 h-5" />
+          <a
+            href="https://www.apple.com/store" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 border border-gray-200 px-5 py-2.5 rounded-md bg-white shadow-sm hover:shadow-md transition"
+          >
+            <img src={appStore} alt="App Store" className="w-5 h-5" />
             <span className="text-sm font-medium text-gray-700">App Store</span>
           </a>
         </div>
