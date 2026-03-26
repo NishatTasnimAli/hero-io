@@ -1,0 +1,553 @@
+[
+  {
+    "id": 1,
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "image": "https://img.icons8.com/color/96/whatsapp--v1.png",
+    "description": [
+      "WhatsApp redefines how people stay connected by offering a seamless, secure, and lightning-fast messaging experience.",
+      "The Status feature allows you to share moments from your day that disappear after 24 hours, similar to stories on other platforms.",
+      "With over two billion active users worldwide, WhatsApp is not just a messaging app but the backbone of global digital communication."
+    ],
+    "size": 45.6,
+    "reviews": 125430,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 79230 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "image": "https://img.icons8.com/color/96/spotify.png",
+    "description": [
+      "Spotify lets you listen to millions of songs, podcasts, and playlists from around the world.",
+      "Discover new music daily with personalized recommendations and curated playlists for every mood.",
+      "Offline mode allows you to download songs and podcasts so you can enjoy your favorites without using data."
+    ],
+    "size": 60.2,
+    "reviews": 210000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 135500 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "image": "https://img.icons8.com/color/96/zoom.png",
+    "description": [
+      "Zoom offers reliable video and audio conferencing, chat, and webinars across devices.",
+      "Features include screen sharing, breakout rooms, and virtual backgrounds for professional meetings.",
+      "Zoom integrates with calendars and apps for seamless scheduling and collaboration."
+    ],
+    "size": 90.5,
+    "reviews": 180000,
+    "ratingAvg": 4.4,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 118000 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "image": "https://img.icons8.com/color/96/instagram-new.png",
+    "description": [
+      "Instagram is a visual-first social platform to share photos, videos, and stories with friends and followers.",
+      "Reels allow for creative short videos, while Explore helps you discover content tailored to your interests.",
+      "Business profiles and analytics tools help creators and brands grow and engage their audience effectively."
+    ],
+    "size": 80.1,
+    "reviews": 250000,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 170500 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "image": "https://img.icons8.com/color/96/tiktok--v1.png",
+    "description": [
+      "TikTok is a global platform for short-form mobile videos that entertain and inspire creativity.",
+      "Discover trending challenges, music, and memes, or create your own viral content in seconds.",
+      "The For You feed curates content based on your interests and viewing habits for endless entertainment."
+    ],
+    "size": 95.3,
+    "reviews": 300000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 203000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "image": "https://img.icons8.com/color/96/google-maps.png",
+    "description": [
+      "Google Maps provides accurate navigation, traffic updates, and local business information.",
+      "Explore new places, discover restaurants, and read reviews from millions of users.",
+      "Offline maps, real-time transit updates, and Street View make it easy to get around anywhere."
+    ],
+    "size": 120.8,
+    "reviews": 220000,
+    "ratingAvg": 4.6,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 14000 },
+      { "name": "4 star", "count": 65000 },
+      { "name": "5 star", "count": 142500 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "image": "https://img.icons8.com/color/96/youtube-play.png",
+    "description": [
+      "YouTube lets you watch and share videos, subscribe to channels, and interact with creators worldwide.",
+      "From tutorials and vlogs to music and entertainment, discover content that interests you.",
+      "Create your own channel, upload videos, and monetize your content to reach a global audience."
+    ],
+    "size": 105.0,
+    "reviews": 280000,
+    "ratingAvg": 4.7,
+    "downloads": 22000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 180500 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "image": "https://img.icons8.com/color/96/facebook-new.png",
+    "description": [
+      "Facebook connects you with friends, family, and communities across the world.",
+      "Share posts, photos, videos, and participate in Groups or Events to stay engaged.",
+      "Marketplace allows buying and selling locally, while Pages support businesses and creators."
+    ],
+    "size": 95.7,
+    "reviews": 260000,
+    "ratingAvg": 4.3,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 65000 },
+      { "name": "5 star", "count": 174500 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "image": "https://img.icons8.com/color/96/snapchat.png",
+    "description": [
+      "Snapchat is a multimedia messaging app that allows users to send photos and videos that disappear.",
+      "Create Stories to share your day, explore AR lenses, and chat with friends in real-time.",
+      "Discover content from publishers and creators, while maintaining privacy with ephemeral messaging."
+    ],
+    "size": 80.4,
+    "reviews": 150000,
+    "ratingAvg": 4.4,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 89000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "image": "https://img.icons8.com/color/96/linkedin.png",
+    "description": [
+      "LinkedIn is the world’s largest professional network for connecting with colleagues and industry leaders.",
+      "Post updates, search for jobs, apply to positions, and grow your professional brand.",
+      "LinkedIn Learning offers courses to enhance skills and stay competitive in your career."
+    ],
+    "size": 85.0,
+    "reviews": 140000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 87000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "image": "https://img.icons8.com/color/96/telegram-app.png",
+    "description": [
+      "Telegram is a cloud-based messaging app with a focus on speed and security.",
+      "Send messages, photos, videos, and files of any type, and enjoy encrypted chats for privacy.",
+      "Channels allow broadcasting to unlimited audiences, while groups can host up to 200,000 members."
+    ],
+    "size": 60.7,
+    "reviews": 130000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 76000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "image": "https://img.icons8.com/color/96/pinterest.png",
+    "description": [
+      "Pinterest helps you discover ideas and inspiration for every part of your life.",
+      "Save pins, create boards, and explore trends for fashion, home, recipes, and more.",
+      "Personalized recommendations make it easy to find ideas that match your tastes."
+    ],
+    "size": 70.2,
+    "reviews": 110000,
+    "ratingAvg": 4.5,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 63000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "image": "https://img.icons8.com/color/96/duolingo.png",
+    "description": [
+      "Duolingo makes learning a new language fun and engaging with gamified lessons.",
+      "Practice reading, writing, listening, and speaking skills daily in bite-sized sessions.",
+      "Track progress, earn achievements, and compete with friends to stay motivated."
+    ],
+    "size": 65.4,
+    "reviews": 95000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 62000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "image": "https://img.icons8.com/color/96/netflix.png",
+    "description": [
+      "Netflix lets you watch movies, TV shows, and documentaries across genres and languages.",
+      "Create profiles for family members, download content for offline viewing, and enjoy recommendations.",
+      "Original productions and exclusive shows keep entertainment fresh and engaging."
+    ],
+    "size": 100.5,
+    "reviews": 160000,
+    "ratingAvg": 4.6,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 95000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "image": "https://img.icons8.com/color/96/canva.png",
+    "description": [
+      "Canva simplifies graphic design for everyone with drag-and-drop templates and tools.",
+      "Create presentations, social media posts, and marketing materials with ease.",
+      "Collaborate in real-time, download your designs, and use professional elements for stunning results."
+    ],
+    "size": 75.0,
+    "reviews": 125000,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 75000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "image": "https://img.icons8.com/color/96/evernote.png",
+    "description": [
+      "Evernote helps you capture ideas, organize notes, and manage tasks all in one app.",
+      "Create notebooks, attach images, PDFs, and web clippings, and sync across all your devices.",
+      "Use tags and search to quickly find important information, making productivity effortless."
+    ],
+    "size": 55.2,
+    "reviews": 85000,
+    "ratingAvg": 4.5,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 48000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "image": "https://img.icons8.com/color/96/slack-new.png",
+    "description": [
+      "Slack is a messaging platform designed for teams to communicate efficiently and collaborate seamlessly.",
+      "Channels organize conversations by topic, project, or team, while direct messages keep private communications clear.",
+      "Integrate apps, share files, and use Slackbot for reminders to keep your work organized."
+    ],
+    "size": 80.0,
+    "reviews": 90000,
+    "ratingAvg": 4.6,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 49000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "image": "https://img.icons8.com/color/96/dropbox.png",
+    "description": [
+      "Dropbox allows you to store files securely in the cloud and access them from any device.",
+      "Share large files effortlessly, collaborate on documents, and manage your workspace efficiently.",
+      "Offline access, automatic backups, and file versioning make Dropbox a reliable solution for productivity."
+    ],
+    "size": 70.5,
+    "reviews": 75000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 5500 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 37000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "image": "https://img.icons8.com/color/96/adobe-acrobat.png",
+    "description": [
+      "Adobe Acrobat Reader allows you to view, edit, sign, and annotate PDF documents on the go.",
+      "Scan documents, fill forms, and collaborate with colleagues seamlessly.",
+      "Integration with cloud storage services makes sharing and storing PDFs easy and secure."
+    ],
+    "size": 95.6,
+    "reviews": 120000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 59000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "image": "https://img.icons8.com/color/96/zoom.png",
+    "description": [
+      "Zoom Cloud Meetings lets you host and join video conferences with HD quality and reliability.",
+      "Features include screen sharing, virtual backgrounds, breakout rooms, and recording options.",
+      "Perfect for remote work, online learning, and staying connected with friends and family."
+    ],
+    "size": 100.3,
+    "reviews": 110000,
+    "ratingAvg": 4.5,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 55000 }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "image": "https://img.icons8.com/color/96/uber.png",
+    "description": [
+      "Uber is a ride-hailing app that connects passengers with drivers quickly and safely.",
+      "Request rides, track your driver in real-time, and pay seamlessly through the app.",
+      "Uber also offers food delivery through Uber Eats and other transport options in many cities."
+    ],
+    "size": 85.7,
+    "reviews": 95000,
+    "ratingAvg": 4.4,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 33000 },
+      { "name": "5 star", "count": 47000 }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "image": "https://img.icons8.com/color/96/airbnb.png",
+    "description": [
+      "Airbnb allows you to book unique accommodations and experiences worldwide.",
+      "Discover homes, apartments, and boutique stays with verified reviews and photos.",
+      "Hosts can manage listings easily, communicate with guests, and grow their business."
+    ],
+    "size": 90.8,
+    "reviews": 88000,
+    "ratingAvg": 4.6,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 47800 }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "image": "https://img.icons8.com/color/96/shazam.png",
+    "description": [
+      "Shazam identifies music playing around you instantly and provides artist and track info.",
+      "Discover lyrics, videos, and playlists of your favorite songs.",
+      "Connect with Apple Music to play full tracks and explore curated music recommendations."
+    ],
+    "size": 65.3,
+    "reviews": 70000,
+    "ratingAvg": 4.7,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 39000 }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "image": "https://img.icons8.com/color/96/notion.png",
+    "description": [
+      "Notion is an all-in-one workspace for notes, tasks, databases, and collaboration.",
+      "Organize projects, track goals, and collaborate with teams using flexible templates.",
+      "Integration with other tools keeps all your work connected and easily accessible."
+    ],
+    "size": 75.5,
+    "reviews": 85000,
+    "ratingAvg": 4.6,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft",
+    "image": "https://img.icons8.com/color/96/microsoft-teams.png",
+    "description": [
+      "Microsoft Teams is a hub for teamwork that brings chat, video conferencing, and file collaboration together.",
+      "Organize meetings, collaborate on documents in real-time, and stay connected with your team.",
+      "Integration with Office 365 apps makes workflow seamless and efficient."
+    ],
+    "size": 110.2,
+    "reviews": 90000,
+    "ratingAvg": 4.5,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 45500 }
+    ]
+  }
+]
+
