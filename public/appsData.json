@@ -267,7 +267,7 @@
     "id": 13,
     "title": "Duolingo",
     "companyName": "Duolingo Inc.",
-    "image": "https://img.icons8.com/color/96/duolingo.png",
+    "image": "../assets/duolingo.png",
     "description": [
       "Duolingo makes learning a new language fun and engaging with gamified lessons.",
       "Practice reading, writing, listening, and speaking skills daily in bite-sized sessions.",
@@ -443,7 +443,7 @@
     "id": 21,
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
-    "image": "https://img.icons8.com/color/96/uber.png",
+    "image": "../assets/Uber.png",
     "description": [
       "Uber is a ride-hailing app that connects passengers with drivers quickly and safely.",
       "Request rides, track your driver in real-time, and pay seamlessly through the app.",
