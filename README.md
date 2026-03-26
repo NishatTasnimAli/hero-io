@@ -39,7 +39,7 @@ This project is ideal for developers learning React, routing with React Router, 
 | **DaisyUI** | Tailwind-based component library |
 | **React Icons** | Icon library |
 | **Vercel** | Deployment |
-| **JavaScript ** | Core scripting |
+| **JavaScript** | Core scripting |
 | **JSON** | App data source |
 
 ---
