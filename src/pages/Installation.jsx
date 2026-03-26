@@ -48,7 +48,7 @@ export default function Installation() {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-sm bg-white border-slate-200 text-slate-500 font-medium normal-case gap-2"
+              className="btn btn-md bg-white border-slate-200 text-black font-medium normal-case gap-3 px-4 py-2"
             >
               {sortType || "Sort By Size"}
               <svg
@@ -68,15 +68,15 @@ export default function Installation() {
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-3 shadow bg-base-100 rounded-box w-52"
+              className="dropdown-content z-[1] menu p-3 shadow bg-white rounded-box w-52"
             >
               <li>
-                <button onClick={() => handleSortBtn("highToLow")}>
+                <button className="w-full px-4 py-2 bg-white text-black hover:bg-gray-100 hover:text-black" onClick={() => handleSortBtn("highToLow")}>
                   Size (Large to Small)
                 </button>
               </li>
               <li>
-                <button onClick={() => handleSortBtn("lowToHigh")}>
+                <button className="w-full px-4 py-2 bg-white text-black hover:bg-gray-100 hover:text-black" onClick={() => handleSortBtn("lowToHigh")}>
                   Size (Small to Large)
                 </button>
               </li>

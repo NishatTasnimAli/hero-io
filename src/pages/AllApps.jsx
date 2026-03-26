@@ -43,7 +43,7 @@ const AllApps = () => {
             <input
               type="search"
               placeholder="Search Apps"
-              className="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#632EE3] focus:border-transparent text-sm md:text-base"
+              className="w-full pl-10 pr-4 py-4 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#632EE3] focus:border-transparent text-sm md:text-base"
               onChange={handleOnChange}
             />
             <svg

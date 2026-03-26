@@ -31,76 +31,84 @@ const AppDetails = () => {
   const handleInstallBtn = (id) => {
     saveToLocalStorage(id);
     setInstalled(true);
-    toast.success("The app has been installed successfully");
   };
 
   return (
-    <div className="bg-[linear-gradient(180deg,#EEF0F5_0%,#F8F9FC_100%)]">
-      <div className="max-w-[1200px] mx-auto px-4 py-20">
-        <div className="lg:flex gap-10">
-          <img
-            className="bg-white p-10 shadow-xl lg:w-1/3 md:h-1/2 mb-6 lg:mb-0"
-            src={app.image}
-            alt={app.title}
-          />
-          <div className="space-y-4 w-full lg:w-2/3 md:h-1/2">
-            <h2 className="text-4xl font-bold">{app.title}</h2>
-            <p className="text-gray-500">
+    <div className="bg-[#F8FAFC] min-h-screen pb-20">
+      <div className="max-w-5xl mx-auto px-4 py-20">
+
+        <div className="lg:flex gap-10 items-start">
+          <div className="bg-white p-6 rounded-2xl shadow-xl lg:w-1/5 flex-shrink-0">
+            <img
+              src={app.image}
+              alt={app.title}
+              className="w-full h-full object-cover rounded-xl"
+            />
+          </div>
+
+          <div className="lg:w-2/3 space-y-6 mt-6 lg:mt-0">
+            <h1 className="text-4xl font-bold text-[#0F172A]">{app.title}</h1>
+            <p className="text-gray-500 text-lg">
               Developed by{" "}
-              <span className="font-semibold bg-[linear-gradient(180deg,#632EE3_0%,#9F62F2_100%)] bg-clip-text text-transparent">
+              <span className="font-semibold underline bg-gradient-to-b from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 {app.companyName}
               </span>
             </p>
-            <hr className="border-gray-300" />
 
-            <div className="-ml-6">
-              <div className="stats">
-                <div className="stat">
-                  <img className="mb-2" src={downloadIcon} alt="downloads" />
-                  <div className="stat-title">Downloads</div>
-                  <div className="stat-value">{formatNumber(app.downloads)}</div>
+            {/* Stats Boxes */}
+            <div className="flex flex-col sm:flex-row gap-4 mt-4">
+              <div className="flex items-center bg-white rounded-xl p-4 shadow border border-gray-100 flex-1 gap-2">
+                <img src={downloadIcon} alt="downloads" className="w-6 h-6" />
+                <div>
+                  <p className="text-xs text-gray-500">Downloads</p>
+                  <p className="font-bold text-sm text-green-500">{formatNumber(app.downloads)}</p>
                 </div>
               </div>
-
-              <div className="stats">
-                <div className="stat">
-                  <img className="mb-2" src={ratingIcon} alt="ratings" />
-                  <div className="stat-title">Average Ratings</div>
-                  <div className="stat-value">{app.ratingAvg}</div>
+              <div className="flex items-center bg-white rounded-xl p-4 shadow border border-gray-100 flex-1 gap-2">
+                <img src={ratingIcon} alt="ratings" className="w-6 h-6" />
+                <div>
+                  <p className="text-xs text-gray-500">Average Ratings</p>
+                  <p className="font-bold text-sm text-orange-500">{app.ratingAvg}</p>
                 </div>
               </div>
-
-              <div className="stats">
-                <div className="stat">
-                  <img className="mb-2" src={likeIcon} alt="reviews" />
-                  <div className="stat-title">Total Reviews</div>
-                  <div className="stat-value">{formatNumber(app.reviews)}</div>
+              <div className="flex items-center bg-white rounded-xl p-4 shadow border border-gray-100 flex-1 gap-2">
+                <img src={likeIcon} alt="reviews" className="w-6 h-6" />
+                <div>
+                  <p className="text-xs text-gray-500">Total Reviews</p>
+                  <p className="font-bold text-sm text-blue-500">{formatNumber(app.reviews)}</p>
                 </div>
               </div>
             </div>
 
+            {/* Install Button */}
             <button
               disabled={installed}
               onClick={() => handleInstallBtn(app.id)}
-              className={`btn bg-[#00D390] text-white ${installed ? "bg-blue-700" : ""}`}
+              className={`mt-6 w-full md:w-auto px-6 py-3  font-semibold text-white transition-colors ${
+                installed
+                  ? "bg-gray-400 cursor-not-allowed"
+                  : "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90"
+              }`}
             >
               {installed ? "Installed" : `Install Now (${app.size}MB)`}
             </button>
           </div>
         </div>
 
-        <hr className="border-gray-300 my-8" />
+        {/* Ratings Chart */}
+        <div className="my-12 bg-white p-6 rounded-2xl shadow">
+          <RatingsChart ratings={ratings} />
+        </div>
 
-        <RatingsChart ratings={ratings} />
-
-        <hr className="border-gray-300 my-8" />
-
-        <h2 className="text-2xl font-bold mb-4">Description</h2>
-        {description.map((des, index) => (
-          <p key={index} className="text-gray-500 mb-4 leading-8">
-            {des}
-          </p>
-        ))}
+        {/* Description */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-4">Description</h2>
+          {description.map((des, index) => (
+            <p key={index} className="text-gray-500 mb-4 leading-7">
+              {des}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );
